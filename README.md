@@ -12,7 +12,7 @@ $ sudo docker build -t twitch-count-app .
 $ sudo docker images
 REPOSITORY            TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
 twitch-count-app      latest              xxxxxxxxxxxx        31 seconds ago      695 MB
-$ sudo docker run -it --rm --name my-running-app twitch-count-app
+$ sudo docker run --rm --name my-running-app twitch-count-app
 There are 20816 streamers doing it live.
 ```
 
