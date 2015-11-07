@@ -1,4 +1,4 @@
-# twitch-count
+# twitch-count-docker
 
 An example of using the python `onbuild` docker image to containerize a simple python script.
 
@@ -6,7 +6,7 @@ An example of using the python `onbuild` docker image to containerize a simple p
 Clone the repo and execute `docker build`:
 
 ```
-$ git clone https://github.com/thecdcd/twitch-count.git
+$ git clone https://github.com/thecdcd/twitch-count-docker.git
 $ cd twitch-count
 $ sudo docker build -t twitch-count-app .
 $ sudo docker images
